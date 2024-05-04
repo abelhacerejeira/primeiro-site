@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<!-- meta - infromações ao navegador -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Maria">
+    <meta name="assunto" content="Formulario  Pesquisa"> <title>Página sobre Rock nacional</title> <link rel="icon" href="img/icons8-música-rock-48.png" type="image/x-icon">
+</head>
+
+<body>
+    <!--  da pagina -->
+<header>
+    
+
+    <h1>Página 2 - Formulário de Pesquisa</h1>
+
+    <!-- menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="fotos.html">Fotos da História do Rock</a></li>
+           
+                      
+        </ul>
+    </nav>
+    <hr>
+</header>
+
+<main>
+    <h2>Preencha o Formulário</h2>
+      <form action="submit">
+
+        <fieldset>
+            <legend>Informações Gerais</legend>
+
+            <label for="nome">Nome</label>  
+           <input type="text" name="nome" id="nome" placeholder="Informe seu nome" autofocus>   <br><br>
+
+           <label for="email">E-mail</label>  
+           <input type="text" name="email" id="email" placeholder="Informe seu e-mail" >   <br><br>
+
+           <label for="dataNascimento">Data de nascimento</label>  
+           <input type="date" name="dataNascimento" id="dataNascimento"> <br><br>
+
+           <label for="idade">Idade</label>  
+           <input type="number" name="idade" id="idade" min="12" max="100" placeholder="Informe sua idade"><br><br> 
+        </fieldset>
+
+        <fieldset>
+            <legend>Informações sobre a Banda Favorita</legend>
+            <label for="banda-favorita">Qual é a sua banda favorita?</label>  
+            <input type="text" name="banda-favorita" id="banda-favorita"  placeholder="Capital Inicial" > <br><br> 
+
+            <p>Qual é o seu gênero de rock favorito?
+            </p><br><br>
+
+            <select name="genero-favorito" id="genero=favorito">
+                <option value="rock">Rock</option>
+                <option value="alternativo">Alternativo</option>
+                <option value="classico">Classico</option>
+                <option value="metal">Metal</option>
+                <option value="romantico">Romântico</option>
+                <option value="outro">Outro</option>
+
+            </select>
+
+            <p>Qual é a sua playtaforma de streming de música favorita?</p>
+               <input type="radio" name="plataformas" id="spotify" value="spotify">
+               <label for="spotify">Spotify</label>
+
+               <input type="radio" name="plataformas" id="deezer" value="deezer">
+               <label for="deezer">Deezer</label>
+
+               <input type="radio" name="plataformas" id="applemusic" value="applemusic">
+               <label for="applemusic">Apple Music</label><br><br>
+
+            <p>Qual dessas bandas de rock nacional você conhece?</p>
+                <input type="checkbox" name="bandas" id="legiaoUrbana" value="legiaoUrbana">
+                <label for="legiaoUrbana">Legião Urbana</label><br>
+
+                <input type="checkbox" name="bandas" id="titas" value="titas">
+                <label for="titas">Titãs</label><br>
+
+                <input type="checkbox" name="bandas" id="paralamas" value="paralamas">
+                <label for="paralamas">Paralamas do Sucesso</label><br>
+
+                <input type="checkbox" name="bandas" id="capitalInicial" value="capitalInicial">
+                <label for="capitalInicial">Capital Inicial</label>
+            
+        </fieldset>
+        <br><br>
+
+       <fieldset>
+        <legend>Participe da nossa galeria de fotos!</legend>
+        <p>Faça parte da nossa galeria. Envie sua foto em algum show!</p>
+        <input type="file" name="anexoFoto" id="anexoFoto"><br><br>
+
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva aqui a legenda da sua foto..."></textarea><br><br>
+
+       </fieldset>
+       <br><br>
+
+       <button type="submit">Enviar</button>
+       <button type="reset">Limpar</button>
+
+      </form>
+
+      <p><a href="formulario.html"> voltar ao topo</a></p>
+
+
+</main>
+
+<footer>
+    <p>&lt;&copy; Copyright  - App - Rock Nacional &gt; </p>      
+</footer>
+
+
+
+</body>

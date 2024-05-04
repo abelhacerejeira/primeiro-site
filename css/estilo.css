@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* usando os elemementos do html (html-body- p)*/
+
+html {
+      font-family: "Open Sans", sans-serif; 
+
+     }
+
+body {
+    background-color:#FAF1E4;
+    margin-bottom: 100px;
+     }
+
+img {
+width: 100%;
+
+    }
+
+
+/* Usando uma classe para formatar cabeçalho*/
+.header {
+    background-color: #9EB384;
+    display: flex;  /*deixa o site ajustavél para diferentes telas*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 10px;  /*espaçamento do home rock no brasil*/
+
+        }
+
+
+.menu {
+    display: flex;
+
+      }  
+
+
+.menu li {
+   list-style: none;   /* tira a bolinha marcador */
+         }
+
+
+.menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;  /*espaçamento do menu*/
+
+        }
+
+
+        /* criar um retangulo c/pontas arrendondasponteiro do mouse */
+ .menu a:hover {
+            background-color:#02383C;
+            color: azure;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+
